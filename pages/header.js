@@ -7,7 +7,7 @@ import {
 } from 'baseui/header-navigation'
 import { StyledLink as Link } from 'baseui/link'
 import { Button } from 'baseui/button'
-import { backgrounds } from 'polished'
+// import { backgrounds } from 'polished'
 
 export default () => (
   <div>

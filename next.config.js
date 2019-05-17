@@ -1,4 +1,6 @@
-module.exports = {
+const withCss = require("@zeit/next-css")
+
+module.exports = withCss({
     webpack: (cfg) => {
         cfg.module.rules.push(
             {
@@ -8,4 +10,5 @@ module.exports = {
         )
         return cfg;
     }
-}
+})
+

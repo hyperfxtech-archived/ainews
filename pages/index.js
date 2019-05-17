@@ -1,4 +1,11 @@
 import Header from './header'
+import Card from './cardLayout'
 export default () => {
-  return <Header />
+  return (
+    <div>
+      <Header/>
+      <Card/>
+    </div>
+  )
+
 }
