@@ -1,1 +1,4 @@
-export default () => <h1>Hello</h1>
+import Header from './header'
+export default () => {
+  return <Header />
+}
