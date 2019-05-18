@@ -1,9 +1,5 @@
 import React from 'react'
-import { Card, StyledBody } from 'baseui/card'
-import { Client as Styletron } from 'styletron-engine-atomic'
-import { Provider as StyletronProvider } from 'styletron-react'
-import { LightTheme, BaseProvider, styled } from 'baseui'
-import { StatefulInput } from 'baseui/input'
+import { styled } from 'baseui'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const CardContent = styled('a', {
@@ -13,6 +9,7 @@ const CardContent = styled('a', {
   fontSize: '1.313em',
   lineHeight: '1.5em'
 })
+
 export default () => (
   <div className="container">
     <div className="row">

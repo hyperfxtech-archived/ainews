@@ -1,5 +1,5 @@
-import Header from './header'
-import Card from './cardLayout'
+import Header from '../component/header'
+import Card from '../component/cardLayout'
 export default () => {
   return (
     <div>
@@ -7,5 +7,4 @@ export default () => {
       <Card/>
     </div>
   )
-
 }
