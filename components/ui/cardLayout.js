@@ -1,21 +1,10 @@
-import React from 'react'
-import { styled } from 'baseui'
-import 'bootstrap/dist/css/bootstrap.min.css'
-
-const CardContent = styled('a', {
-  display: 'flex',
-  marginTop: '24px',
-  marginBottom: '24px',
-  fontSize: '1.313em',
-  lineHeight: '1.5em'
-})
-
+//import React from 'react'
 export default () => (
   <div className="container">
     <div className="row">
       <div className="col-4">
         <a href="#" class="card">
-          <div class="card-body">
+          <div style={{ display: 'inline-block' }} class="card-body">
             <h5 class="card-title">Card title</h5>
           </div>
           <img
