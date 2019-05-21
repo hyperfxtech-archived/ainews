@@ -1,4 +1,3 @@
-
 import Header from '../components/ui/header'
 import Layout from '../components/layout'
 import Card from '../components/ui/cardLayout'

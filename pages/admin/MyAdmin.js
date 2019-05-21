@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import content from '../content/Admin.md';
+import content from '../../content/Admin.md';
 
 export default class MyAdmin extends Component {
   render() {
