@@ -2,9 +2,12 @@ backend:
   name: test-repo
   branch: master
 media_folder: static/img
+public_folder: static/img
+publish_mode: editorial_workflow
+
 collections:
     - label: "Blog"
-      name: "blog"
+      name: blog
       folder: "contend/"
       preview_path: blog/{{title}}
       create: true
