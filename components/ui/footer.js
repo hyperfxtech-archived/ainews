@@ -10,10 +10,9 @@ export default () => {
         <div className="container-fluid text-center text-md-left">
           <div className="row" style={{ color: 'white' }}>
             <div className="col-md-6 mt-md-0 mt-3">
-              <h5 className="text-uppercase">ABOUT ME</h5>
+              <h5 className="text-uppercase">ABOUT US</h5>
               <p>
-                Here you can use rows and columns to organize your footer
-                content.
+                fxtech là tổ chức mã nguồn mở phát triển bởi nhóm kỹ sư trẻ về tin học 
               </p>
             </div>
 
@@ -21,18 +20,19 @@ export default () => {
             <div className="row">
               <div className="flex-center">
                 <a href="#">
-                  <img src="/static/img/fb_logo.png" width="80" height="60" />
+                  <img 
+                  src="/static/img/fb_logo.png" 
+                  width='70em'/>
                 </a>
                 <a href="#">
                   <img
                     src="/static/img/gmail_logo.png"
-                    width="70"
-                    height="60"
+                    width="70em"
                   />
                 </a>
-                <a href="#">
+                {/* <a href="#">
                   <img src="/static/img/yt_logo.png" width="130" height="130" />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

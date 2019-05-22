@@ -12,7 +12,7 @@ export default () => {
       <div className="container">
         <div className="row">
           <div className="col-3">
-            <img style={{ width: '200px' }} src="../static/img/bee.png" />
+            <img style={{ width: '10em' }} src="../static/img/bee.png" />
           </div>
 
           <div className="col-9 " style={{ color: 'white' }}>
