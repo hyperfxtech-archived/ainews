@@ -1,18 +1,17 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
+import '../../static/style/footer.css'
 import React from 'react'
 export default () => {
   return (
     <div className="container">
-      <footer
-        className="page-footer font-small blue pt-4"
-        style={{ background: '#05172A', font: 'small' }}
-      >
+      <footer className="page-footer font-small pt-4">
         <div className="container-fluid text-center text-md-left">
-          <div className="row" style={{ color: 'white' }}>
+          <div className="row  about">
             <div className="col-md-6 mt-md-0 mt-3">
               <h5 className="text-uppercase">ABOUT US</h5>
               <p>
-                fxtech là tổ chức mã nguồn mở phát triển bởi nhóm kỹ sư trẻ về tin học 
+                fxtech là tổ chức mã nguồn mở phát triển bởi nhóm kỹ sư trẻ về
+                tin học
               </p>
             </div>
 
@@ -20,19 +19,11 @@ export default () => {
             <div className="row">
               <div className="flex-center">
                 <a href="#">
-                  <img 
-                  src="/static/img/fb_logo.png" 
-                  width='70em'/>
+                  <img src="/static/img/fb_logo.png" width="70em" />
                 </a>
                 <a href="#">
-                  <img
-                    src="/static/img/gmail_logo.png"
-                    width="70em"
-                  />
+                  <img src="/static/img/gmail_logo.png" width="70em" />
                 </a>
-                {/* <a href="#">
-                  <img src="/static/img/yt_logo.png" width="130" height="130" />
-                </a> */}
               </div>
             </div>
           </div>
