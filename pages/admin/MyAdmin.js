@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import content from '../../content/Admin.md'
+import '../../static/style/pageblog.css'
 
 export default class MyAdmin extends Component {
   render() {
@@ -8,21 +9,24 @@ export default class MyAdmin extends Component {
       attributes: { title, cats }
     } = content
     return (
-      <article style={{ background: '#CCCC' }}>
-        <div style={{ background: 'white' }}>
+      <article className="container">
+        <div className="title">
           <a align="center">
-            <div style={{ color: 'orange' }}>
+            <div>
               <h1>{title}</h1>
             </div>
-            <div style={{ color: 'black' }}>
-              <div dangerouslySetInnerHTML={{ __html: html }} />
+            <div>
+              <div
+                className="content"
+                dangerouslySetInnerHTML={{ __html: html }}
+              />
             </div>
           </a>
         </div>
         <ul>
           {cats.map((cat, k) => (
             <li key={k}>
-              <h3>{cat.name}</h3>
+              <h3 className="chapper">{cat.name}</h3>
               <p>{cat.description}</p>
               <hr />
             </li>
